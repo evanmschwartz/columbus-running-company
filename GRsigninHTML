@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>First Time Group Run</title>
+</head>
+
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+<img src="http://www.columbusrunning.com/Content/banner.png" class="center">
+
+  <h2>
+POWERED BY:
+</h2>
+
+  <img src="http://vector.me/files/images/6/4/6487/mizuno.png" class="center">
+
+  <header>
+    <h1>
+  First Time Group Run Sign In
+  </h1>
+  </header>
+
+  <div class="phoneform">
+    <label>
+      <span>
+     <h3>
+    Please Enter Your Full Name and Phone Number To Sign In
+     </h3>
+    </span>
+    </label>
+  </div>
+  
+
+<body>
+
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+
+<form class="phoneform">
+
+<form id="input-form" action="" method="POST" target="no-target">
+  <input id="input-q1" placeholder="Full Name" name="q1" required>
+  
+  <br>
+  
+  <input id="input-q2" placeholder="Phone Number" name="q2" required>
+  
+  <br>
+  
+  <button id="form-submit" type="submit">SUBMIT</button>
+</form>
+
+<p id="input-feedback"></p>
+
+<iframe src="#" id="no-target" name="no-target" style="visibility:hidden"></iframe>
+
+<script>
+    $('#input-form').one('submit',function(){
+        var inputq1 = encodeURIComponent($('#input-q1').val());
+        var inputq2 = encodeURIComponent($('#input-q2').val());
+        var q1ID = "ENTRY ID 1";
+        var q2ID = "ENTRY ID 2";
+        var baseURL = 'GOOGLE URL';
+        var submitRef = '&submit=Submit';
+        var submitURL = (baseURL + q1ID + "=" + inputq1 + "&" + q2ID + "=" + inputq2 + submitRef);
+        console.log(submitURL);
+        $(this)[0].action=submitURL;
+        $('#input-feedback').text('Thank You!');
+    });
+</script>
+
+</body>
+</html>
