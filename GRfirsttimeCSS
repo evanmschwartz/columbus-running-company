@@ -1,0 +1,37 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: red;
+  font-family: Helvetica;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h2 {
+  color: red;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-family: Helvetica;
+}
+
+.phoneform {
+  text-align: center;
+  margin: 25px;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.redirectpage {
+  text-align: center;
+  margin: auto;
+}
