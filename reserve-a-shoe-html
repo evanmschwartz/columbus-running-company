@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<header class="container">
+        <div class="masthead">
+            <div class="row text-center">
+                <div class="visible-lg visible-md">
+                    <img src="../../Content/banner.png" alt="Columbus Running Company">
+                </div>
+            </div>
+            <div class="navbar navbar-inverse navbar-justified">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="http://www.columbusrunning.com">CRC</a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/Locations/Columbus">Columbus</a></li>
+                                    <li><a href="/Locations/Dublin">Dublin</a></li>
+                                    <li><a href="/Locations/Pickerington">Pickerington</a></li>
+                                    <li><a href="/Locations/Westerville">Westerville</a></li>
+                                    <li><a href="/Home/Delivery">Delivery</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="/Home/LoyaltyRewards">Loyalty Rewards</a></li>
+                                    <li><a href="/Home/GiftCards">Gift Cards</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/RunEvent/RunEvents">Upcoming Races</a></li>
+                                    <li><a href="/RunEvent/Results">Results</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="/RunEvent/Volunteer">Volunteer</a></li>
+                                    <li><a href="/RunEvent/RaceTiming">Race Timing Services</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/Home/Training">Program Overviews</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="/Clinic/beginner">Walk &amp; Run: 101</a></li>
+                                    <li><a href="/Clinic/Marathon">Half &amp; Full Marathon: CRC Training Program</a></li>
+                                    <li><a href="/Home/L2R">Charity Training Group: Love2Reach (L2R)</a></li>
+                                    <li><a href="/Home/StartingLine">Personalized Training: StartingLine</a></li>
+                                    <li><a href="/Home/Grasshoppers">Youth: Grasshoppers</a></li>
+                                    <li><a href="/Home/Camp">Middle &amp; High School: CRC XC Camp</a></li>                                          
+                                    <li class="divider"></li>
+                                    <li><a href="/TeamMember/RedTeamHome">CRC Elite Team</a></li>                                   
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Wellness <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/Clinic/Fuel">Personal Nutrition Sessions</a></li>
+                                    <li><a href="/Clinic/WomensNight">Women's Running Night</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/Home/ShoeDonation">Shoe Donations</a></li>
+                                    <li><a href="/Home/CharityFund">Charity Fund</a></li>
+                                    <li><a href="/Home/HighSchool">High School Page</a></li>
+                                    <li class="divider"></li>
+                                </ul>
+                            </li>
+                            <li><a href="http://columbusrunningclub.grou.ps/" target="_blank">Running Club</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/Home/Contact">Contact Us</a></li>
+                                    <li><a href="/Home/CRCStaff">CRC Staff</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="/Home/Mission">Mission</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><!--/.navbar-collapse -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+<h1>
+Reserve A Shoe
+</h1>
+<form method="post" action = "shoeorder.php">
+
+<form action="MAILTO:orderscolumbusrunning@gmail.com" method="post" enctype="text/plain">
+
+
+<fieldset>
+          <legend>Which shoe are you looking for?</legend>
+          <p>
+             <label>Shoe</label>
+             <select id="cat">
+    <option val="adidas">adidas</option>
+    <option val="asics">asics</option>
+    <option val="brooks">brooks</option>
+    <option val="hoka">hoka</option>
+    <option val="mizuno">mizuno</option>
+    <option val="newbalance">newbalance</option>
+    <option val="nike">nike</option>
+    <option val="saucony">saucony</option>
+</select>
+
+<select id="item">
+
+</select>          </p>
+       </fieldset>
+      
+      
+<!to disable option from drop down list enter "disabled" after choice>
+
+       <fieldset>
+          <legend>Men's or Women's</legend>
+          <p>
+             <label>Sex</label>
+             <select id = "shoesex">
+               <option value = "0">Choose One</option>
+               <option value = "1">Men</option>
+               <option value = "2">Women</option>
+             </select>
+          </p>
+       </fieldset>
+       <fieldset>
+          <legend>What size?</legend>
+          <p>
+             <label>Size</label>
+             <select id = "shoesize">
+               <option value = "0">Choose One</option>
+               <option value = "1">5</option>
+               <option value = "2">5.5</option>
+               <option value = "3">6</option>
+               <option value = "4">6.5</option>
+               <option value = "5">7</option>
+               <option value = "6">7.5</option>
+               <option value = "7">8</option>
+               <option value = "8">8.5</option>
+               <option value = "9">9</option>
+               <option value = "10">9.5</option>
+               <option value = "11">10</option>
+               <option value = "12">10.5</option>
+               <option value = "13">11</option>
+               <option value = "14">11.5</option>
+               <option value = "15">12</option>
+               <option value = "16">12.5</option>
+               <option value = "17">13</option>
+               <option value = "18">14</option>
+               <option value = "19">15</option>            
+             </select>
+          </p>
+       </fieldset>
+       <fieldset>
+         <legend> What width?</legend>
+         <p>
+         <label>Width</label>
+         <select id = "shoewidth">
+           <option value = "0">Choose One</option>
+            <option value = "1">B (Women Standard)</option>
+            <option value = "2">D (Men Standard)</option>
+            <option value = "3">2E (Wide)</option>
+            <option value = "4">4E (Double Wide)</option> 
+         </select>
+         </p>
+       </fieldset>
+       <fieldset>
+         <legend> Which store would you like to pickup at?</legend>
+         <p>
+         <label>Store?</label>
+      <select id = "storepickup">
+           <option value = "0">Choose One</option>
+            <option value = "1">Dublin</option>
+            <option value = "2">Pickerington</option>
+            <option value = "3">Westerville</option>
+            <option value = "4">Short North</option>
+         </select>
+         </p>
+       </fieldset>
+       <br>
+       
+       <h3>
+       
+       <legend> Contact Information: </legend></h3>
+ <p>
+ First Name: <br>
+  <input type="text" name="firstname"> <br>
+  Last Name: <br>
+  <input type="text" name="lastname"><br>
+Email: <br>
+  <input type="text" name = "email"> 
+
+ </p>
+       
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+</form> 
+
+</body>
+</html>
