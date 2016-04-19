@@ -1,0 +1,33 @@
+adidas=new Array('Please Choose','Adios Boost','Boston Boost','Ultra Boost','Tempo Boost');
+asics=new Array('Please Choose','Gel Cumulus','Gel Nimbus','GT2000','Gel Kayano');
+brooks=new Array('Please Choose','Launch 2','Ghost 8','Glycerin 13','Ravenna 7','Adrenaline 16');
+hoka=new Array('Please Choose','Clifton 2','Conquest 2','Bondi 4','Constant');
+mizuno=new Array('Please Choose','Wave Rider 19','Wave Sayonara 3','Wave Enigma 5','Wave Inspire 12');
+newbalance=new Array('Please Choose','Fresh Foam Zante','880','860');
+nike=new Array('Please Choose','Pegasus 32','Vomero 10','Structure 19');
+saucony=new Array('Please Choose','Kinvara 6','Ride 8','Zealot ISO','Triumph ISO 2','Guide 9','Omni 14','Hurricane ISO');
+
+
+populateSelect();
+
+$(function() {
+
+      $('#cat').change(function(){
+        populateSelect();
+    });
+    
+});
+
+
+function populateSelect(){
+    cat=$('#cat').val();
+    $('#item').html('');
+    
+       eval(cat).forEach(function(t) { 
+            $('#item').append('<option>'+t+'</option>');
+        });
+    }
+    
+
+    
+ 
