@@ -1,0 +1,12 @@
+# Attempting to facilitate a RFID system using old race bibs + raspberry Pi to track what shoe inventory is pulled. 
+
+# RFID tags run on a 125 (maybe?) kHz frequency
+
+
+# Information needing to be logged from bib tag
+   - Timestamp
+   - SKU
+   - Brand
+   - Model
+   - Size
+  
