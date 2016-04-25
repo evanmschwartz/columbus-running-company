@@ -1,0 +1,57 @@
+# List of brands
+
+
+
+# List of models for brand
+
+
+
+# List of SKUs
+
+
+
+# Size range for SKUs
+
+
+
+
+# Function to pull from RICS what was sold in the past hour
+    # Inventory
+    # Inventory Inquiry
+    # Search for SKU 1 on list
+    # Check value
+    # If > 0 continue to next item
+    # If <= 0 log to list
+    # If last item then continue
+
+# Make list of SKUs sold
+
+
+    # Does it need to be individualized by store?
+        # If so need to write script for stores 1, 2, 3, 4
+    # Can it be in organization 12142
+        # If so then script can just total inventory
+
+
+
+
+
+
+# Alert with list of SKUs
+    # Alerst should include len() of 
+
+
+
+
+# After posting then sys.ext()
+
+
+
+
+
+
+# Future considerations
+    # Check futures orders
+        # if future order is on its way earlier than two weeks then add to separate list
+    # Check inventory of other stores
+        # Recommend pulling from other store based on selling history year to date with SKU in that size
