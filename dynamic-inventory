@@ -1,3 +1,109 @@
+
+#dyiv.py
+
+def get_SKUsold():
+def add_to_SKUList():
+def check_SKUinventory():
+def ignoreSKU():
+def add_to_alert():
+
+
+# Need a helper?
+
+def _url(path):
+    return 'something at RICS' + path
+
+
+
+
+def add_to_SKUList(SKUList):
+
+
+
+
+# Function to pull from RICS what was sold in the past hour
+
+# Get the 
+
+
+
+
+# This sets the number of times to repeat the loop
+numberofSKU = (XXX)
+
+   
+    
+# Should use a while loop. Number of SKUs makes the condition True. 
+
+
+
+
+
+
+# Finish while loop with a continue after last SKU
+
+
+
+
+SKUList = ["SKU1", "SKU2", etc...]
+
+# Need to use .extend to get accurate len() 
+
+
+    
+    
+    
+    # Inventory
+    
+    # Inventory Inquiry
+    
+    # Search for SKU 1 on list
+    
+    # Check value
+    
+    # If > 0 continue to next item
+    
+    # If <= 0 log to list
+    
+    # If last item then continue
+
+
+# Make list of SKUs sold
+
+
+
+
+    # Does it need to be individualized by store?
+        # If so need to write script for stores 1, 2, 3, 4
+    # Can it be in organization 12142
+        # If so then script can just total inventory
+
+
+
+
+
+
+# Alert with list of SKUs
+    # Alert should include len() of 
+
+len(SKUList)
+
+
+# After posting then sys.ext()
+
+
+
+
+
+
+# Future considerations
+    # Check futures orders
+        # if future order is on its way earlier than two weeks then add to separate list
+    # Check inventory of other stores
+        # Recommend pulling from other store based on selling history year to date with SKU in that size
+
+
+
 # List of brands
 
 
@@ -15,43 +121,4 @@
 
 
 
-# Function to pull from RICS what was sold in the past hour
-    # Inventory
-    # Inventory Inquiry
-    # Search for SKU 1 on list
-    # Check value
-    # If > 0 continue to next item
-    # If <= 0 log to list
-    # If last item then continue
 
-# Make list of SKUs sold
-
-
-    # Does it need to be individualized by store?
-        # If so need to write script for stores 1, 2, 3, 4
-    # Can it be in organization 12142
-        # If so then script can just total inventory
-
-
-
-
-
-
-# Alert with list of SKUs
-    # Alerst should include len() of 
-
-
-
-
-# After posting then sys.ext()
-
-
-
-
-
-
-# Future considerations
-    # Check futures orders
-        # if future order is on its way earlier than two weeks then add to separate list
-    # Check inventory of other stores
-        # Recommend pulling from other store based on selling history year to date with SKU in that size
