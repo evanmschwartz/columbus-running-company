@@ -1,1 +1,7 @@
-# 
+# input is phone number
+phonenumber = input("What is your phone number?")
+
+
+
+
+print("Hello," + CustomerID + "," "welcome to Group Run!")
